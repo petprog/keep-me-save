@@ -1,5 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.keep_me_save">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
    <application
         android:label="keep_me_save"
         android:name="${applicationName}"
