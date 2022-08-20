@@ -4,10 +4,6 @@ import 'package:supabase_flutter/supabase_flutter.dart';
 
 import '../authentication/authentication.dart';
 
-const String supabaseUrl = "https://ostsvckxgnmxkikexcrs.supabase.co";
-const String token =
-    "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im9zdHN2Y2t4Z25teGtpa2V4Y3JzIiwicm9sZSI6ImFub24iLCJpYXQiOjE2NjA5Mjk4NTgsImV4cCI6MTk3NjUwNTg1OH0.vJUjKi0B8l_fKxLEZRYR06dF3dl6EAvV7OtBVrUhZxU";
-
 class SupabaseManager {
   final client = Supabase.instance.client;
 
